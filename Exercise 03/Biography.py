@@ -6,24 +6,13 @@ Steps:
 dictionary.
 2. Print the values on separate lines using a single print() statement.
 3. Use variables with appropriate data types for each piece of information.
-Advanced Requirements:
-Have the user input their name, hometown, and age instead of hardcoding the
-values. Try giving both your first and second name when asked for your name.
-What happens? How can you handle multiple words in Python? Test the
-program by entering a string value for age (e.g., “twenty”). What happens?
-How can you prevent this issue?"""
-#Answer to Exercise 3: Biography
-
-#This is a String Variable with an input function which asks the User for their First Name
-First_Name = str(input ("First Name: "))
-#This is a String Variable with an input function which asks the user for their Hometown 
-Hometown = str(input ("Hometown: "))
- #This is an Integer Variable with an input function which asks the user for their Age
-Age = int(input ("Age: "))
-
-print(f"User First Name: " + First_Name + "\n" +
-      "User Age: " + str(Age) + "\n" +
-      "User Hometown: " + Hometown ) 
-'''This print statement uses string concatenation to put all the String Variables into one singular line 
-The Integer Variable Age was converted to string in this statement as integers cannot be added with strings
-"\n" is used to create a new line after each Variable'''
+"""
+#This name variable is associated with a string value data type
+name = str('Taher Abdalla')
+#This hometown variable is associated with a string value data type
+hometown = str('Sharjah')
+#This age variable is associated with an integar value data type
+age = int(17)
+#this print statement prints the variables above on multiple lines using '\n', and string concatenation
+print(f"Name: " + name.title() + '\n' + "Hometown: " + hometown.title() + "\n" + 'Age:' + str(age))
+#The variable age has been converted into a string as string concatenation cannot be used with integar values
