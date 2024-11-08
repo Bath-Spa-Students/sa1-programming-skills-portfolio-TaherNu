@@ -5,7 +5,7 @@ tasks. Print all values to the console in each case.
 * Write a loop that counts up from 30 to 50 in increments of 1. 
 * Write a loop that counts down from 50 to 10 in decrements of 2. 
 * Write a loop that counts up from 100 to 200 in increments of 5. 
-You may include all loops in a single project'''
+You may include all loops in a single project'''.
 
 #This is a list comprehension where a loop starts counting from 0 and stops when it reaches 51 in increments of 1
 loop1 = [value for value in range(0, 51, 1)]
