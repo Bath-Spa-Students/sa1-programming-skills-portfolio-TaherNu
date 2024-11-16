@@ -54,20 +54,20 @@ if Capital_Malta.strip().title() == 'Valleta' :
 else: 
         print(f"Your answer is incorrect ")
         
-Capital_Türkiye = input('What is the capital of Türkiye? ')
+Capital_Türkiye = input('\nWhat is the capital of Türkiye? ')
 if Capital_Türkiye.strip().title() == 'Ankara' :
         print(f'Correct the capital of Türkiye is ', Capital_Türkiye.strip().title(), '!!!')
 else: 
         print(f'Your answer is incorrect')
 
 Capital_Romania = input('\nWhat is the capital of Romania? ')
-if Capital_Romania == 'Bucharest' :
+if Capital_Romania.strip().title() == 'Bucharest' :
         print(f"Correct the capital of Romania is ", Capital_Romania.strip().title(), '!!!')
 else:
         print(f'Your answer is incorrect')
 
-Capital_Georgia = input('What is the capital of Georgia? ')
-if Capital_germany.strip().title() == 'Atlanta' :
+Capital_Georgia = input('\nWhat is the capital of Georgia? ')
+if Capital_Georgia.strip().title() == 'Atlanta' :
         print('correct the capital of Gerogia is ', Capital_Georgia.strip().title(), '!!!')
 else:
         print('Your answer is incorrect')
