@@ -31,9 +31,9 @@ else:
         if year.strip().lower() == "yes":
         #if yes print leap month and days
             print('Month', month, 'has', leap_Year_days)
-            if year.strip().lower() == "no":
-        #if no print month and days
-                print(f'Month ', month, 'has', days_of_month[month], 'days')
+        elif year.strip().lower() == "no":
+        # if no, print month and days
+            print(f'Month', month, 'has', days_of_month[month], 'days')
     #else statement
     else: 
             print(f'Month', month , 'has', days_of_month[month], 'days')
